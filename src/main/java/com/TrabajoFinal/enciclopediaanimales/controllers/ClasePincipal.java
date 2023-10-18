@@ -15,7 +15,7 @@ public class ClasePincipal extends Application {
 
     public void start(Stage primaryStage) throws IOException {
         mainStage = primaryStage;
-        FXMLLoader fxmlLoader = new FXMLLoader (ClasePincipal.class.getResource("/com/TrabajoFinal/enciclopediaanimales/Login/Login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader (ClasePincipal.class.getResource("/com/TrabajoFinal/enciclopediaanimales/controllers/Login/Login.fxml"));
          scene = new Scene(fxmlLoader.load(), 600, 400);
         mainStage.setTitle("Enciclopedia Animal");
         mainStage.setScene(scene);

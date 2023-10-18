@@ -12,6 +12,7 @@ import javafx.scene.layout.AnchorPane;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -44,11 +45,13 @@ public class Login implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        botton_ingresar.setOnAction(event -> {
-            UtilsScene.changeScene(event,"Login/PaginaPrinciapl.fxml","album de fotos");
-        });
+
     }
 
+    @FXML
+    private void entrar() throws IOException {
+        ClasePincipal.setRoot(getClass().getResource("Login/PaginaPrinciapl.fxml"));
+    }
 
 
 }

@@ -1,6 +1,5 @@
 package com.TrabajoFinal.enciclopediaanimales.controllers;
 
-import com.TrabajoFinal.enciclopediaanimales.utils.UtilsScene;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -44,14 +43,15 @@ public class PaginaPrincipal implements Initializable {
     private void CambiarScene(){
         if (RBanfibios.isSelected()) {
             try {
-                ClasePincipal.setRoot(getClass().getResource("/com/TrabajoFinal/enciclopediaanimales/Anfibios/Anfibios.fxml"));
+                ClasePincipal.setRoot(getClass().getResource("Anfibios/Anfibios.fxml"));
+                ClasePincipal.getMainStage().setTitle("Anfibios");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         } else if (Rbmamifero.isSelected()){
 
             try {
-                ClasePincipal.setRoot(getClass().getResource("/com/TrabajoFinal/enciclopediaanimales/Mamiferos/Mamiferos.fxml"));
+                ClasePincipal.setRoot(getClass().getResource("Mamiferos/Mamiferos.fxml"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
