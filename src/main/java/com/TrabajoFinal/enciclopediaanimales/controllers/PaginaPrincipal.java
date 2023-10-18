@@ -51,6 +51,7 @@ public class PaginaPrincipal implements Initializable {
         } else if (Rbmamifero.isSelected()){
 
             try {
+                ClasePincipal.getMainStage().setTitle("Mamiferos");
                 ClasePincipal.setRoot(getClass().getResource("Mamiferos/Mamiferos.fxml"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
