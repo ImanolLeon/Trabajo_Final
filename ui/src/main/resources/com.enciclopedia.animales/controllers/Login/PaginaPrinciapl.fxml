@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: effafd;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.PaginaPrincipal">
+   <children>
+      <Label layoutX="196.0" layoutY="22.0" text="¡BIENVENIDO!">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="69.0" text="¿Que clase de animal deseas ver?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Rbmamifero" layoutX="74.0" layoutY="103.0" mnemonicParsing="false" selected="true" text="Mamiferos">
+         <toggleGroup>
+            <ToggleGroup fx:id="GrupoAnimales" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="RBpece" layoutX="74.0" layoutY="129.0" mnemonicParsing="false" selected="true" text="Peces" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBaves" layoutX="74.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="Aves" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBanfibios" layoutX="74.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Anfibios" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBinsectos" layoutX="74.0" layoutY="217.0" mnemonicParsing="false" selected="true" text="Insectos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBaracnido" layoutX="74.0" layoutY="249.0" mnemonicParsing="false" selected="true" text="Aracnicos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBanelidos" layoutX="74.0" layoutY="280.0" mnemonicParsing="false" selected="true" text="Anelidos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBcrustaceos" layoutX="74.0" layoutY="304.0" mnemonicParsing="false" selected="true" text="Crustaceos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RBreptiles" layoutX="74.0" layoutY="332.0" mnemonicParsing="false" selected="true" text="Reptiles" toggleGroup="$GrupoAnimales" />
+      <ImageView fitHeight="222.0" fitWidth="292.0" layoutX="357.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/img_5.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-4.0" layoutY="352.0" prefHeight="47.0" prefWidth="606.0" style="-fx-background-color: a1d9e9;" />
+      <Button fx:id="butto_Adelante" onAction="#CambiarScene" layoutX="504.0" layoutY="360.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" style="-fx-background-color: #9e9e9e;" text="Adelante">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
