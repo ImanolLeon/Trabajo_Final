@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFFFE0;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Aves">
+   <children>
+      <AnchorPane layoutX="300.0" prefHeight="400.0" prefWidth="307.0" style="-fx-background-color: FFFACD;">
+         <children>
+            <Button fx:id="Button_adelante" layoutX="235.0" layoutY="366.0" mnemonicParsing="false" text="Adelante" />
+            <ImageView fx:id="Imagen1" fitHeight="184.0" fitWidth="214.0" layoutX="115.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Ave3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Imagen2" fitHeight="220.0" fitWidth="279.0" layoutX="-10.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Ave2.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label fx:id="text" layoutX="275.0" layoutY="19.0" text="AVES">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="text2" layoutX="35.0" layoutY="66.0" text="¿Qué animal deseas ver?" />
+      <RadioButton fx:id="RB_gallito" layoutX="57.0" layoutY="115.0" mnemonicParsing="false" selected="true" text="Gallito de las rocas">
+         <toggleGroup>
+            <ToggleGroup fx:id="grupo_aves" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="RB_pava" layoutX="57.0" layoutY="141.0" mnemonicParsing="false" selected="true" text="Pava aliblanca" toggleGroup="$grupo_aves" />
+      <RadioButton fx:id="RB_cortarrama" layoutX="57.0" layoutY="166.0" mnemonicParsing="false" selected="true" text="Cortarrame peruana" toggleGroup="$grupo_aves" />
+      <Button fx:id="Button_atras" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" text="Atrás" />
+   </children>
+</AnchorPane>

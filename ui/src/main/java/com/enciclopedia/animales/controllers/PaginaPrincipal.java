@@ -42,6 +42,13 @@ public class PaginaPrincipal {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        }else if (RBaves.isSelected()){
+            try {
+                App.setRoot(getClass().getResource("Aves/Aves.fxml"));
+                App.getMainStage().setTitle("Aves");
+            }catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
