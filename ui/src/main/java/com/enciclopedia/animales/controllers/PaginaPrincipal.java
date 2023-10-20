@@ -49,6 +49,22 @@ public class PaginaPrincipal {
             }catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        }else if (RBaracnido.isSelected()) {
+            try {
+                App.setRoot(getClass().getResource("Aracnidos/Aracnidos.fxml"));
+                App.getMainStage().setTitle("Aracnidos");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }else if (RBinsectos.isSelected()) {
+            try {
+                App.setRoot(getClass().getResource("Insectos/Insectos.fxml"));
+                App.getMainStage().setTitle("Insectos");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
+
     }
 }
+

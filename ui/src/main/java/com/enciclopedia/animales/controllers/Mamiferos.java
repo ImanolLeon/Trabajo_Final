@@ -1,8 +1,11 @@
 package com.enciclopedia.animales.controllers;
 
+import com.enciclopedia.animales.window.App;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+
+import java.io.IOException;
 
 public class Mamiferos {
     @FXML
@@ -17,4 +20,9 @@ public class Mamiferos {
     private Button siguiente;
     @FXML
     private Button atras_button;
+
+
+
+
+
 }
