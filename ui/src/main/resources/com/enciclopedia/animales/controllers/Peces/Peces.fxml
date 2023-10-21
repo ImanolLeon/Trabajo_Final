@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: B0E0E6;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Peces">
+   <children>
+      <AnchorPane layoutX="288.0" prefHeight="400.0" prefWidth="312.0" style="-fx-background-color: ADD8E6;">
+         <children>
+            <Button fx:id="Button_adelante" layoutX="238.0" layoutY="363.0" mnemonicParsing="false" text="Adelante" />
+            <ImageView fx:id="imagen2" fitHeight="150.0" fitWidth="200.0" layoutX="139.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Peces.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagen1" fitHeight="150.0" fitWidth="200.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Peces2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="text1" layoutX="255.0" layoutY="22.0" text="PECES">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button_atras" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#Retroceder" text="Atrás" />
+      <RadioButton fx:id="RB_atun" layoutX="86.0" layoutY="93.0" mnemonicParsing="false" text="Atún">
+         <toggleGroup>
+            <ToggleGroup fx:id="GrupoPeces" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="RB_aespada" layoutX="86.0" layoutY="119.0" mnemonicParsing="false" text="Pes espada" toggleGroup="$GrupoPeces" />
+      <RadioButton fx:id="RB_raya" layoutX="86.0" layoutY="147.0" mnemonicParsing="false" text="Raya" toggleGroup="$GrupoPeces" />
+      <Label fx:id="text2" layoutX="96.0" layoutY="57.0" text="¿Qué animal quieres ver?" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0F8FF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Anelidos">
+   <children>
+      <AnchorPane prefHeight="406.0" prefWidth="306.0" style="-fx-background-color: FFF5EE;">
+         <children>
+            <Label fx:id="text2" layoutX="38.0" layoutY="60.0" text="¿Que animal quiere ver?" />
+            <RadioButton fx:id="RB_gusarapas" layoutX="59.0" layoutY="109.0" mnemonicParsing="false" selected="true" text="Gusarapas">
+               <toggleGroup>
+                  <ToggleGroup fx:id="GrupoAnelidos" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="RB_lombrices" layoutX="59.0" layoutY="133.0" mnemonicParsing="false" selected="true" text="Lombrices" toggleGroup="$GrupoAnelidos" />
+            <RadioButton fx:id="RB_glycera" layoutX="59.0" layoutY="158.0" mnemonicParsing="false" selected="true" text="Glycera" toggleGroup="$GrupoAnelidos" />
+            <RadioButton fx:id="RB_sanguijuelas" layoutX="59.0" layoutY="185.0" mnemonicParsing="false" selected="true" text="Sanguijuelas" toggleGroup="$GrupoAnelidos" />
+            <Button fx:id="Button_atras" layoutX="20.0" layoutY="357.0" mnemonicParsing="false" text="Atrás" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="text1" layoutX="260.0" layoutY="14.0" text="ANELIDOS">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button_adelante" layoutX="526.0" layoutY="364.0" mnemonicParsing="false" text="Adelante" />
+      <ImageView fx:id="imagen1" fitHeight="150.0" fitWidth="200.0" layoutX="437.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Anelidos.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagen2" fitHeight="150.0" fitWidth="200.0" layoutX="320.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Anelidos2.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

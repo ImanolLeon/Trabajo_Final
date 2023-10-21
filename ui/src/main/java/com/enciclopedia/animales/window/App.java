@@ -20,6 +20,9 @@ public class App extends Application {
         mainStage.setTitle("Enciclopedia Animal");
         mainStage.setScene(scene);
         mainStage.show();
+
+
+
     }
 
 

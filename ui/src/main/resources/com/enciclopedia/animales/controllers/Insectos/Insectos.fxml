@@ -26,9 +26,12 @@
                </image></ImageView>
          </children></AnchorPane>
       <Label fx:id="text1" layoutX="33.0" layoutY="59.0" text="¿Qué animal quieres ver?" />
-      <RadioButton fx:id="RB_hormiga" layoutX="68.0" layoutY="106.0" mnemonicParsing="false" text="Hormiga" />
-      <RadioButton fx:id="RB_avispa" layoutX="68.0" layoutY="132.0" mnemonicParsing="false" text="Avispa" />
-      <RadioButton fx:id="RB_mosca" layoutX="68.0" layoutY="157.0" mnemonicParsing="false" text="Mosca doméstica" />
-      <Button fx:id="Button_atras" layoutX="16.0" layoutY="354.0" mnemonicParsing="false" text="Atrás" />
+      <RadioButton fx:id="RB_hormiga" layoutX="68.0" layoutY="106.0" mnemonicParsing="false" selected="true" text="Hormiga">
+         <toggleGroup>
+            <ToggleGroup fx:id="GrupoInsectos" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="RB_avispa" layoutX="68.0" layoutY="132.0" mnemonicParsing="false" selected="true" text="Avispa" toggleGroup="$GrupoInsectos" />
+      <RadioButton fx:id="RB_mosca" layoutX="68.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="Mosca doméstica" toggleGroup="$GrupoInsectos" />
+      <Button fx:id="Button_atras" layoutX="16.0" layoutY="354.0" mnemonicParsing="false" onAction="#Retroceder" text="Atrás" />
    </children>
 </AnchorPane>
