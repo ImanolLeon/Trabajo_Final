@@ -5,8 +5,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 
-import java.io.IOException;
-
 public class Mamiferos {
     @FXML
     private RadioButton Animal;
@@ -22,7 +20,10 @@ public class Mamiferos {
     private Button atras_button;
 
 
-
+    @FXML
+    private void Retroceder() {
+        App.irAPrincipal();
+    }
 
 
 }

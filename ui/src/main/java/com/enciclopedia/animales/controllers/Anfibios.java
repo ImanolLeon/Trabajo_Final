@@ -1,5 +1,6 @@
 package com.enciclopedia.animales.controllers;
 
+import com.enciclopedia.animales.window.App;
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;
 import javafx.scene.control.Label;
@@ -27,5 +28,8 @@ public class Anfibios {
     @FXML
     private Image imagen2;
 
-
+    @FXML
+    private void Retroceder() {
+        App.irAPrincipal();
+    }
 }

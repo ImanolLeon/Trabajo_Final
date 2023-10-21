@@ -1,5 +1,6 @@
 package com.enciclopedia.animales.controllers;
 
+import com.enciclopedia.animales.window.App;
 import javafx.fxml.FXML;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.Label;
@@ -23,4 +24,9 @@ public class Aracnidos {
     private Image Imagen1;
     @FXML
     private Image imagen2;
+
+    @FXML
+    private void Retroceder() {
+        App.irAPrincipal();
+    }
 }

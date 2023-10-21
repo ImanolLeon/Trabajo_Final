@@ -6,8 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 
-import java.io.IOException;
-
 public class Insectos {
     @FXML
     private RadioButton RB_hormiga, RB_avispa, RB_mosca;
@@ -18,12 +16,7 @@ public class Insectos {
 
     @FXML
     private void Retroceder() {
-        try {
-            App.setRoot(getClass().getResource("Login/PaginaPrinciapl.fxml"));
-            App.getMainStage().setTitle("Pagina Principal");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        App.irAPrincipal();
     }
 
 
