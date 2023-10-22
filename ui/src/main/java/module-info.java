@@ -1,8 +1,8 @@
 module com.enciclopedia.animales.ui {
-    requires javafx.controls;
-    requires javafx.fxml;
+    requires transitive javafx.controls;
+    requires transitive javafx.fxml;
 
-    requires java.desktop;
+    requires transitive java.desktop;
 
     opens com.enciclopedia.animales.controllers to javafx.fxml;
     exports com.enciclopedia.animales.controllers;

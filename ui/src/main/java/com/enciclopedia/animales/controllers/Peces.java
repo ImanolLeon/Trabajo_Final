@@ -2,20 +2,35 @@ package com.enciclopedia.animales.controllers;
 
 import com.enciclopedia.animales.window.App;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 
-public class Anelidos {
+public class Peces {
 
     @FXML
-    private RadioButton RB_gusarapas,RB_lombrices,RB_glycera,RB_sanguijuelas;
+    private RadioButton RB_atun, RB_aespada, RB_raya;
+
     @FXML
-    private ToggleGroup GrupoAnelidos;
+    private Button Button_adelante,Button_atras;
+
     @FXML
-    private ToggleGroup GrupoInsectos;
+    private ToggleGroup  GrupoPecess;
+
 
     @FXML
     private void Retroceder() {
         App.irAPrincipal();
     }
-}
+
+
+
+
+
+
+
+
+    }
+
+
+

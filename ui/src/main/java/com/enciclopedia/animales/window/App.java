@@ -20,12 +20,23 @@ public class App extends Application {
         mainStage.setTitle("Enciclopedia Animal");
         mainStage.setScene(scene);
         mainStage.show();
-    }
 
+
+
+    }
 
     public static void setRoot(URL ruta) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ruta);
         scene.setRoot(fxmlLoader.load());
+    }
+
+    public static void irAPrincipal() {
+        try {
+            setRoot(Login.class.getResource("Login/PaginaPrinciapl.fxml"));
+            mainStage.setTitle("Pagina Principal");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static Stage getMainStage() {

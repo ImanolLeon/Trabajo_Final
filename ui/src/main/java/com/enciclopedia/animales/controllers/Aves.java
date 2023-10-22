@@ -18,7 +18,10 @@ public class Aves  {
     @FXML
     private Button Button_adelante,Button_atras;
 
-
+    @FXML
+    private void Retroceder() {
+        App.irAPrincipal();
+    }
 
 
 
