@@ -63,6 +63,20 @@ public class PaginaPrincipal {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        }else if (RBcrustaceos.isSelected()) {
+            try {
+                App.setRoot(getClass().getResource("Crustaceos/Crustaceos.fxml"));
+                App.getMainStage().setTitle("Crustaceos");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }else if (RBreptiles.isSelected()) {
+            try {
+                App.setRoot(getClass().getResource("Reptiles/Reptiles.fxml"));
+                App.getMainStage().setTitle("Reptiles");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
 
     }
