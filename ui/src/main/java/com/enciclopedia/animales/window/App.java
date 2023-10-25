@@ -1,5 +1,7 @@
 package com.enciclopedia.animales.window;
 
+import com.enciclopedia.animales.conexion.Animal;
+import com.enciclopedia.animales.conexion.Conexion;
 import com.enciclopedia.animales.controllers.Login;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -20,6 +22,7 @@ public class App extends Application {
         mainStage.setTitle("Enciclopedia Animal");
         mainStage.setScene(scene);
         mainStage.show();
+
 
 
 
