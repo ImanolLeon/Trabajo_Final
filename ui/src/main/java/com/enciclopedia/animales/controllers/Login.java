@@ -9,6 +9,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.effect.ImageInput;
 import javafx.scene.layout.AnchorPane;
 
+import java.io.IOException;
+
 public class Login {
     @FXML
     private Label text_title,text_username,text_contrasena;
@@ -25,6 +27,23 @@ public class Login {
 
     @FXML
     private void entrar() {
-        App.irAPrincipal();
+        String username = textField_username.getText();
+        String contrasena = textField_contrasena.getText();
+        if (username.isEmpty() ||  contrasena.isEmpty()){
+            System.out.println("no se puede entrar vuelva a intentarlo");
+        }else{
+            System.out.println("entró");
+            try {
+                App.setRoot(getClass().getResource("Login/PaginaPrinciapl.fxml"));
+                App.getMainStage().setTitle("Pagina principal");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
+
+
+
+
+
 }

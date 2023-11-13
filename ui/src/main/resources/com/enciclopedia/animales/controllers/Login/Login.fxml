@@ -37,7 +37,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <Button fx:id="botton_ingresar" onAction="#entrar" layoutX="181.0" layoutY="239.0" mnemonicParsing="false" style="-fx-background-color: ffbb8b;" text="Ingresar" />
+            <Button fx:id="botton_ingresar" layoutX="181.0" layoutY="239.0" mnemonicParsing="false" onAction="#entrar" style="-fx-background-color: ffbb8b;" text="Ingresar" />
             <TextField fx:id="textField_username" layoutX="136.0" layoutY="146.0" />
             <PasswordField fx:id="textField_contrasena" layoutX="134.0" layoutY="195.0" />
             <Label fx:id="text_username" layoutX="33.0" layoutY="144.0" text="Usuario">
