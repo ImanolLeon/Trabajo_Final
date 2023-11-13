@@ -2,33 +2,33 @@ package com.enciclopedia.animales.conexion;
 
 public class Animal {
     private String Categoria;
-    private String Animal;
+    private String nombreAnimal; //nombre animal
     private String alimentacion;
     private String familia;
     private String tamano;
     private String genero;
     private String numeroPatas;
+    private String numeroOjos;
 
     public String getCategoria() {
         return Categoria;
     }
 
-    public String getAnimal() {
-        return Animal;
+    public String getnombreAnimal() {
+        return nombreAnimal;
     }
 
-    public Animal(String categoria, String animal, String alimentacion, String familia, String tamano) {
+    public Animal(String categoria, String nombreAnimal, String alimentacion, String familia,
+                  String tamano, String genero, String numeroPatas, String numeroOjos) {
         this.Categoria = categoria;
-        this.Animal = animal;
+        this.nombreAnimal = nombreAnimal;
         this.alimentacion = alimentacion;
         this.familia = familia;
         this.tamano = tamano;
-
-
+        this.genero = genero;
+        this.numeroPatas = numeroPatas;
+        this.numeroOjos = numeroOjos;
     }
-
-
-
 
     public String getAlimentacion() {
         return alimentacion;
@@ -54,7 +54,7 @@ public class Animal {
         return numeroOjos;
     }
 
-    private String numeroOjos;
+
 
 
 }

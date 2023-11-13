@@ -31,7 +31,7 @@ public class Conexion {
                 String[] valores = fila.split(",");  // Separamos los valores por comas
 
                 // Añadimos los valores a la lista
-                datos.add(new Animal(valores[0],valores[1],valores[2],valores[3],valores[4]));
+                datos.add(new Animal(valores[0],valores[1],valores[2],valores[3],valores[4],valores[5],valores[6],valores[7]));
             }
 
         } catch (IOException e ){
