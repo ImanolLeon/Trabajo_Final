@@ -31,6 +31,17 @@ public class Login {
         String contrasena = textField_contrasena.getText();
         if (username.isEmpty() ||  contrasena.isEmpty()){
             System.out.println("no se puede entrar vuelva a intentarlo");
+
+            //ir al archivo XML llamado "Entrada_erronea"
+            try {
+                App.setRoot(getClass().getResource("Login/Entrada_erronea.fxml"));
+                App.getMainStage().setTitle("Error");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+
+
         }else{
             System.out.println("entró");
             try {

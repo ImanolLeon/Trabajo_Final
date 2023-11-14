@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.EntradaErronea">
+   <children>
+      <Label layoutX="246.0" layoutY="43.0" text="¡ERROR!" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="99.0" text="USUARIO O CONTRASEÑA INVALIDA" textFill="#e41717">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_intentar" layoutX="135.0" layoutY="174.0" mnemonicParsing="false" onAction="#nuevo_intento" prefHeight="52.0" prefWidth="121.0" text="Volver a intentar" />
+      <Button fx:id="button_salir" layoutX="361.0" layoutY="174.0" mnemonicParsing="false" onAction="#Cerrar_programa" prefHeight="52.0" prefWidth="109.0" text="Salir Programa" />
+   </children>
+</AnchorPane>
