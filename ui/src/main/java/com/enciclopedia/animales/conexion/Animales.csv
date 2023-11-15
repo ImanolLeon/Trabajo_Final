@@ -1,30 +1,30 @@
-Categoría,Animal,Características,Hábitat,Alimentación,Respiración,Reprodución
-Reptiles,Serpiente ,Las serpientes son reptiles sin patas, con cuerpos alargados y escamas.,Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.,Carnívoras.,Pulmonal,Ovíporas(Ponen Huevos),
-Reptiles,Tortuga ,Cuentan con caparazones duros que protegen su cuerpo y extremidades.,Son animales tanto terrestres y acuáticas,Herbívoras, carnívoras y  omnívoras.,Pulmonal,Ovíporas(Ponen Huevos),
-Reptiles,Camaleón,Son lagartos conocidos por sus ojos móviles y su capacidad de cambiar de color.,Regiones tropicales y subtropicales.,Insectivoras.,Pulmonal,Ovíporas(Ponen Huevos),
-Mamíferos,León,Son grandes felinos conocidos por su melena en los machos. ,Sabanas, llanuras y regiones de matorrales de África,Carnívoro.,Pulmonal,Vivíparas(Crías)
-Mamíferos,Jirafa,Conocidas por su largo cuello y su distintivo patrón de manchas en la piel.,Sabanas, llanuras y regiones de matorrales de África,Herbívoro.,Pulmonal,Vivíparas(Crías)
-Mamíferos,cebra,Son equinos africanos conocidos por sus rayas blancas y negras.,Sabanas, llanuras y regiones de matorrales de África,Herbívoro.,Pulmonal,Vivíparas(Crías)
-Insectos,Hormiga,Son pequeños, generalmente de color negro, marrón o rojo. ,Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.,Omnívoras ,Traqueal.,Haplodiploidía.
-Insectos,Avispa,Son insectos voladores, con cuerpos delgados, antenas y alas membranosas.,Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.,Carnívoros u omnívoros ,Traqueal.,Ovíparos(Ponen huevos)
-Insectos,Mosca ,Bichos voladores de tamaño pequeño, con cuerpos grises y alas transparentes. ,Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.,Detritívoras.,Traqueal.,Ovíparos(Ponen huevos)
-Crustáceos,Camaron,Tienen cuerpos alargados y segmentados, con caparazones duros.,Aguas dulces y saladas en todo el mundo, desde ríos y lagos hasta océanos.,Omnívoras ,Branquial.,Ovíparos(Ponen huevos)
-Crustáceos,Cangrejo,Cuentan con caparazones duros que protegen sus cuerpos y dos grandes pinzas.,Aguas dulces y saladas, así como en hábitats terrestres.,Omnívoras ,Branquial.,Ovíparos(Ponen huevos)
-Crustáceos,Langosta,Son crustáceos grandes con cuerpos alargados y fuertes patas.,Aguas saladas, especialmente en aguas tropicales y subtropicales.,Omnívoras ,Branquial.,Ovíparos(Ponen huevos)
-Aves,Gallito de las rocas,Son conocidos por su plumaje de colores brillantes y su cresta de plumas en la cabeza.,Bosques húmedos de montaña de América del Sur,,Herbívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Aves,Pava aliblanca,De color negro con un parche de piel blanca en la cabeza y una cresta de plumas en la parte posterior del cuello. ,Bosques tropicales de Perú y otras partes de América del Sur.,Herbívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Aves,Cortarrame peruano,Pequeña con plumaje de tonos verdes y rayas en el cuello. Tiene un pico corto y redondeado.,Bosque húmedo en las tierras bajas y montañas de Perú.,Insectívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Arácnidos,Tarántula,Tienen patas largas y fuertes, así como quelíceros (colmillos) que utilizan para inyectar veneno a sus presas. ,Bosques de América del Sur y América Central. ,Insectívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Arácnidos,Viuda Negra,Son venenosas conocidas por su abdomen negro brillante con una marca roja en forma de reloj de arena.,Bosques de América del Norte, América del Sur y algunas partes de Europa.,Insectívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Arácnidos,Araña Lobo,Tienen una excelente vista y agilidad, así como colores que les permiten camuflarse en su entorno.,Bosques, praderas, playas y desiertos. ,Insectívoros.,Pulmonal,Ovíparos(Ponen huevos)
-Anfibios,Ajolote,Branquias externas. Tienen cuerpos alargados, patas cortas y una piel rugosa.,Lagos y cuerpos de agua dulce de América Central,Carnívoros e insectívoros.,Branquial y pulmonal.,Ovíparos(Ponen huevos)
-Anfibios,Rana,Anfibios con cuerpos cortos y robustos, patas traseras largas y saltarinas, y piel húmeda y permeable.,Acuáticos(estanques y ríos) y terrestres(selvas tropicales y zonas de pradera).,Insectívoros.,Cutánea.,Ovíparos(Ponen huevos)
-Anfibios,Salamandra,Anfibios con cuerpos alargados, colas largas y patas cortas.,Bosques, lagos, arroyos y cuevas. ,Insectívoros.,Cutánea.,Ovíparos(Ponen huevos)
-Anfibios,Sapo,De cuerpos robustos, piel rugosa y glándulas parotoides detrás de los ojos.,Bosques hasta zonas suburbanas.,Insectívoros.,Cutánea.,Ovíparos(Ponen huevos)
-Anélidos,Gusarapas,,,,Cutánea.,
-Anélidos,Lombrices,Tienen cuerpos alargados y cilíndricos con anillos exteriores.,Lugares húmedos como jardines, campos y bosques.,Detritívoras.,Cutánea.,Hermafroditas
-Anélidos,Glyseras,,,,Cutánea.,
-Anélidos,Sanguijuelas,Las sanguijuelas son gusanos carnívoros que se caracterizan por su cuerpo alargado y segmentado.,lugares acuáticos como ríos, lagos, pantanos y selvas. ,Carnívoros,Cutánea.,Ovíparos(Ponen huevos)
-Peces,Atún,Tienen cuerpos alargados, aletas dorsales afiladas y aletas caudales fuertes.,Aguas cálidas y templadas de los océanos en todo el mundo,Carnívoros,Branquial,Ovíparos(Ponen huevos)
-Peces,Pez Espada,Tiene una mandíbula alargada y ahusada que se asemeja a una espada.,Aguas tropicales y templadas de océanos de todo el mundo,Carnívoros,Branquial,Ovíparos(Ponen huevos)
-Peces,Raya,Se caracterizan por sus cuerpos planos y anchos, con aletas pectorales que se asemejan a alas.,Aguas costeras, arrecifes de coral y fondos marinos. ,Carnívoros.,Branquial.,Ovíparos(Ponen huevos)
+Categoría,Animal,Hábitat,Alimentación,Familia,Género,Numero de patas,Numero de ojos,Respiración,Reprodución
+Reptiles,Serpiente ,Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.,Carnívoro, Colubridae,Python,0,2,Pulmonal,Ovíporas(Ponen Huevos),
+Reptiles,Tortuga ,Son animales tanto terrestres y acuáticas,Herbívoras,Testudinidae,Chelonia,4,2,Pulmonal,Ovíporas(Ponen Huevos),
+Reptiles,Camaleón,Regiones tropicales y subtropicales.,Insectivora,Chamaeleonidae,Chamaeleo,4,2,Pulmonal,Ovíporas(Ponen Huevos),
+Mamíferos,León,"Sabanas, llanuras y regiones de matorrales de África",Carnívoro,Felidae,Panthera,4,2,Pulmonal,Vivíparas(Crías),""
+Mamíferos,Jirafa,"Sabanas, llanuras y regiones de matorrales de África",Herbívoro,Giraffidae,Giraffa.,4,2,Pulmonal,Vivíparas(Crías),""
+Mamíferos,cebra,"Sabanas, llanuras y regiones de matorrales de África",Herbívoro.,Equidae,Equus,4,2,Pulmonal,Vivíparas(Crías),""
+Insectos,Hormiga,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Omnívoras ,Formicidae,Camponotus,6,2,Traqueal.,Haplodiploidía.,""
+Insectos,Avispa,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Omnívoros ,Vespidae,Vespula,6,2,Traqueal.,Ovíparos(Ponen huevos),""
+Insectos,Mosca ,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Detritívoras.,Muscidae,Drosophila,6,2,Traqueal.,Ovíparos(Ponen huevos),""
+Crustáceos,Camaron,"Aguas dulces y saladas en todo el mundo, desde ríos y lagos hasta océanos.",Omnívoras ,Penaeidae,Macrobrachium,6,2,Branquial.,Ovíparos(Ponen huevos),""
+Crustáceos,Cangrejo,"Aguas dulces y saladas, así como en hábitats terrestres.",Omnívoras ,Portunidae,Ocypode,10,2,Branquial.,Ovíparos(Ponen huevos),""
+Crustáceos,Langosta,"Aguas saladas, especialmente en aguas tropicales y subtropicales.",Omnívoras ,Nephropidae, Acanthacaris,10,2,Branquial.,Ovíparos(Ponen huevos),""
+Aves,Gallito de las rocas,Bosques húmedos de montaña de América del Sur.,Herbívoros.,Cotingidae,Rupicola,2,2,Pulmonal,Ovíparos(Ponen huevos)
+Aves,Pava aliblanca,Bosques tropicales de Perú y otras partes de América del Sur.,Herbívoros.,Cracidae,Penelope,2,2,Pulmonal,Ovíparos(Ponen huevos)
+Aves,Cortarrame peruano,Bosque húmedo en las tierras bajas y montañas de Perú.,Insectívoros.,Cotingidae,Psittacara,2,2,Pulmonal,Ovíparos(Ponen huevos)
+Arácnidos,Tarántula,Bosques de América del Sur y América Central. ,Insectívoros.,Theraphosidae,Aphonopelma,8,8,Pulmonal,Ovíparos(Ponen huevos)
+Arácnidos,Viuda Negra,"Bosques de América del Norte, América del Sur y algunas partes de Europa.",Insectívoros.,Theridiidae,Latrodectus,8,8,Pulmonal,Ovíparos(Ponen huevos),""
+Arácnidos,Araña Lobo,"Bosques, praderas, playas y desiertos. ",Insectívoros.,Lycosidae,Lycosa,8,8,Pulmonal,Ovíparos(Ponen huevos),"",""
+Anfibios,Ajolote,Lagos y cuerpos de agua dulce de América Central,Insectívoros.,Ambystomatidae,Ambystoma,4,2,Branquial ,Ovíparos(Ponen huevos)
+Anfibios,Rana,Acuáticos(estanques y ríos) y terrestres(selvas tropicales y zonas de pradera).,Insectívoros.,Ranidae,Rana,4,2,Cutánea.,Ovíparos(Ponen huevos)
+Anfibios,Salamandra,"Bosques, lagos, arroyos y cuevas. ",Insectívoros.,Salamandridae,Salamandra,4,2,Cutánea.,Ovíparos(Ponen huevos),"",""
+Anfibios,Sapo,Bosques hasta zonas suburbanas.,Insectívoros,Bufonidae,Bufo,4,2,Cutánea.,Ovíparos(Ponen huevos)
+Anélidos,Poliqueto marino,Océanos ,Omnivoros,Nereida,Astropecten,0,0,Cutánea.,Hermafroditas
+Anélidos,Lombrices,"Lugares húmedos como jardines, campos y bosques.",Detritívoras.,Lumbricidae,Lumbricus,0,0,Cutánea.,Hermafroditas,""
+Anélidos,Gusano de seda,"estanques, arroyos y riós.",Detritívoros,Tubificidae,Bombyx,0,0,Cutánea.,Ovíparos(Ponen huevos),""
+Anélidos,Sanguijuelas,"lugares acuáticos como ríos, lagos, pantanos y selvas. ",Carnívoros,Hirudinidae,Hirudo,0,0,Cutánea.,Ovíparos(Ponen huevos),"",""
+Peces,Atún,Aguas cálidas y templadas de los océanos en todo el mundo.,Carnívoros.,Scombridae,Thunnus,0,2,Branquial.,Ovíparos(Ponen huevos)
+Peces,Pez Espada,Aguas tropicales y templadas de océanos de todo el mundo.,Carnívoros.,Xiphiidae,Xiphias,0,2,Branquial.,Ovíparos(Ponen huevos)
+Peces,Raya,"Aguas costeras, arrecifes de coral y fondos marinos. ",Carnívoros.,Dasyatidae,Dasyatis,0,2,Branquial.,Ovíparos(Ponen huevos),""

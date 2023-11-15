@@ -1,7 +1,5 @@
 package com.enciclopedia.animales.window;
 
-import com.enciclopedia.animales.conexion.Animal;
-import com.enciclopedia.animales.conexion.Conexion;
 import com.enciclopedia.animales.controllers.Login;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -24,8 +22,6 @@ public class App extends Application {
         mainStage.show();
 
 
-
-
     }
 
     public static void setRoot(URL ruta) throws IOException {
@@ -41,6 +37,9 @@ public class App extends Application {
             throw new RuntimeException(e);
         }
     }
+
+
+
 
     public static Stage getMainStage() {
         return mainStage;
