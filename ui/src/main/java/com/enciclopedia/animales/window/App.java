@@ -37,7 +37,7 @@ public class App extends Application {
             throw new RuntimeException(e);
         }
     }
-    //ComentarioPrueba
+
     public static Stage getMainStage() {
         return mainStage;
     }
