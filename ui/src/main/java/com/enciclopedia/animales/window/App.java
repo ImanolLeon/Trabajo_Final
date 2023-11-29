@@ -37,9 +37,7 @@ public class App extends Application {
             throw new RuntimeException(e);
         }
     }
-
-
-
+    //BUENOS DIAS
 
     public static Stage getMainStage() {
         return mainStage;
