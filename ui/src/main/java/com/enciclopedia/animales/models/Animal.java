@@ -1,7 +1,6 @@
 package com.enciclopedia.animales.models;
 
 public abstract class Animal{
-    private String Categoria;
     private String habitad;
     private String nombreAnimal; //nombre animal
     private String alimentacion;
@@ -11,12 +10,12 @@ public abstract class Animal{
     private String numeroOjos;
     private String respiacion;
     private String reproduccion;
+    private String rutaImagen;
 
     //constructor
-    public Animal(String categoria, String habitad, String nombreAnimal, String alimentacion,
+    public Animal(String habitad, String nombreAnimal, String alimentacion,
                   String familia, String genero, String numeroPatas, String numeroOjos,
-                  String respiacion, String reproduccion) {
-        this.Categoria = categoria;
+                  String respiacion, String reproduccion, String rutaImagen) {
         this.habitad = habitad;
         this.nombreAnimal = nombreAnimal;
         this.alimentacion = alimentacion;
@@ -26,6 +25,7 @@ public abstract class Animal{
         this.numeroOjos = numeroOjos;
         this.respiacion = respiacion;
         this.reproduccion = reproduccion;
+        this.rutaImagen = rutaImagen;
     }
 
     public String getNombreAnimal() {
@@ -40,14 +40,6 @@ public abstract class Animal{
         return reproduccion;
     }
 
-    public String getCategoria() {
-        return Categoria;
-    }
-
-    public String getnombreAnimal() {
-        return nombreAnimal;
-    }
-
     public String getAlimentacion() {
         return alimentacion;
     }
@@ -55,8 +47,6 @@ public abstract class Animal{
     public String getFamilia() {
         return familia;
     }
-
-
 
     public String getGenero() {
         return genero;
@@ -71,7 +61,8 @@ public abstract class Animal{
     }
     public String getHabitad() { return habitad ;}
 
-
-
+    public String getRutaImagen() {
+        return rutaImagen;
+    }
 }
 

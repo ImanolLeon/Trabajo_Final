@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FF0000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Aracnidos">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FF0000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Aracnidos">
    <children>
       <AnchorPane layoutX="15.0" layoutY="18.0" prefHeight="368.0" prefWidth="572.0" style="-fx-background-color: FFFFFF;">
          <children>
@@ -15,12 +19,12 @@
                </font>
             </Label>
             <Label layoutX="36.0" layoutY="67.0" text="¿Que animal deseas ver?" />
-            <RadioButton layoutX="48.0" layoutY="105.0" mnemonicParsing="false" selected="true" text="Tarántula">
+            <RadioButton fx:id="RB_tarantula" layoutX="48.0" layoutY="105.0" mnemonicParsing="false" selected="true" text="Tarántula">
                <toggleGroup>
                   <ToggleGroup fx:id="Animalesgrupo" />
                </toggleGroup></RadioButton>
-            <RadioButton fx:id="RB_viudaNegra" layoutX="48.0" layoutY="130.0" mnemonicParsing="false" selected="true" text="Viuda Negra" toggleGroup="$Animalesgrupo" />
-            <RadioButton fx:id="RB_aranalobo" layoutX="48.0" layoutY="161.0" mnemonicParsing="false" selected="true" text="Araña lobo" toggleGroup="$Animalesgrupo" />
+            <RadioButton fx:id="RB_viudanegra" layoutX="48.0" layoutY="130.0" mnemonicParsing="false" selected="true" text="Viuda Negra" toggleGroup="$Animalesgrupo" />
+            <RadioButton fx:id="RB_aranaLobo" layoutX="48.0" layoutY="161.0" mnemonicParsing="false" selected="true" text="Araña lobo" toggleGroup="$Animalesgrupo" />
             <ImageView fx:id="imagen1" fitHeight="221.0" fitWidth="244.0" layoutX="277.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Imagenes/img_Araña.png" />
@@ -33,7 +37,7 @@
             </ImageView>
 
             <Button fx:id="boton_Atras" layoutX="36.0" layoutY="310.0" mnemonicParsing="false" onAction="#Retroceder" text="Atrás" />
-            <Button fx:id="boton_adelante" layoutX="466.0" layoutY="310.0" mnemonicParsing="false" text="Adelante" />
+            <Button fx:id="boton_adelante" layoutX="466.0" layoutY="310.0" mnemonicParsing="false" onAction="#adelante" text="Adelante" />
          </children></AnchorPane>
    </children>
 </AnchorPane>

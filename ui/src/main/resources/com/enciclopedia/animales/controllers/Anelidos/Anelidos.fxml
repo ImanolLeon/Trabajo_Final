@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0F8FF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Anelidos">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0F8FF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Anelidos">
    <children>
       <AnchorPane prefHeight="406.0" prefWidth="306.0" style="-fx-background-color: FFF5EE;">
          <children>
@@ -25,7 +29,7 @@
             <Font size="23.0" />
          </font>
       </Label>
-      <Button fx:id="Button_adelante" layoutX="526.0" layoutY="364.0" mnemonicParsing="false" text="Adelante" />
+      <Button fx:id="Button_adelante" layoutX="526.0" layoutY="364.0" mnemonicParsing="false" onAction="#adelante" text="Adelante" />
       <ImageView fx:id="imagen1" fitHeight="150.0" fitWidth="200.0" layoutX="437.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Anelidos.png" />

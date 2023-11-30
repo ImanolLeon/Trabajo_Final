@@ -1,5 +1,7 @@
 package com.enciclopedia.animales.controllers;
 
+import com.enciclopedia.animales.conexion.Conexion;
+import com.enciclopedia.animales.models.Ave;
 import com.enciclopedia.animales.window.App;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -23,7 +25,29 @@ public class Aves  {
         App.irAPrincipal();
     }
 
+    @FXML
+    private void adelante() {
+        Ave ave = null;
 
+        if (RB_pava.isSelected()) {
+            ave = Conexion.getInstancia().getAves().stream().filter(a -> a.getNombreAnimal().equals("Pava aliblanca"))
+                    .findFirst().orElse(null);
+        } else if (RB_cortarrama.isSelected()) {
+            ave = Conexion.getInstancia().getAves().stream().filter(a -> a.getNombreAnimal().equals("Cortarrame peruano"))
+                    .findFirst().orElse(null);
+        } else if (RB_gallito.isSelected()) {
+            ave = Conexion.getInstancia().getAves().stream().filter(a -> a.getNombreAnimal().equals("Gallito de las rocas"))
+                    .findFirst().orElse(null);
+        }
+
+        try {
+            VerAnimalController.lugarARegresar("Principal");
+            VerAnimalController.setAnimal(ave);
+            App.setRoot(getClass().getResource("Animal/Animal_a_mostrar.fxml"));
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 
 
 }

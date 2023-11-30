@@ -1,30 +1,30 @@
-Categoría,Animal,Hábitat,Alimentación,Familia,Género,Numero de patas,Numero de ojos,Respiración,Reprodución,Rutas de imagen
-Reptiles,Serpiente ,Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.,Carnívoro,Colubridae,Python,0,2,Pulmonal,Ovíporas(Ponen Huevos),\ui\src\main\resources\com\enciclopedia\animales\images\python.png
-Reptiles,Tortuga ,Son animales tanto terrestres y acuáticas,Herbívoras,Testudinidae,Chelonia,4,2,Pulmonal,Ovíporas(Ponen Huevos),
-Reptiles,Camaleón,Regiones tropicales y subtropicales.,Insectivora,Chamaeleonidae,Chamaeleo,4,2,Pulmonal,Ovíporas(Ponen Huevos),
-Mamíferos,León,"Sabanas, llanuras y regiones de matorrales de África",Carnívoro,Felidae,Panthera,4,2,Pulmonal,Vivíparas(Crías),
-Mamíferos,Jirafa,"Sabanas, llanuras y regiones de matorrales de África",Herbívoro,Giraffidae,Giraffa.,4,2,Pulmonal,Vivíparas(Crías),
-Mamíferos,cebra,"Sabanas, llanuras y regiones de matorrales de África",Herbívoro.,Equidae,Equus,4,2,Pulmonal,Vivíparas(Crías),
-Insectos,Hormiga,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Omnívoras ,Formicidae,Camponotus,6,2,Traqueal.,Haplodiploidía.,
-Insectos,Avispa,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Omnívoros ,Vespidae,Vespula,6,2,Traqueal.,Ovíparos(Ponen huevos),
-Insectos,Mosca ,"Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.",Detritívoras.,Muscidae,Drosophila,6,2,Traqueal.,Ovíparos(Ponen huevos),
-Crustáceos,Camaron,"Aguas dulces y saladas en todo el mundo, desde ríos y lagos hasta océanos.",Omnívoras ,Penaeidae,Macrobrachium,6,2,Branquial.,Ovíparos(Ponen huevos),
-Crustáceos,Cangrejo,"Aguas dulces y saladas, así como en hábitats terrestres.",Omnívoras ,Portunidae,Ocypode,10,2,Branquial.,Ovíparos(Ponen huevos),
-Crustáceos,Langosta,"Aguas saladas, especialmente en aguas tropicales y subtropicales.",Omnívoras ,Nephropidae,Acanthacaris,10,2,Branquial.,Ovíparos(Ponen huevos),
-Aves,Gallito de las rocas,Bosques húmedos de montaña de América del Sur.,Herbívoros.,Cotingidae,Rupicola,2,2,Pulmonal,Ovíparos(Ponen huevos)
-Aves,Pava aliblanca,Bosques tropicales de Perú y otras partes de América del Sur.,Herbívoros.,Cracidae,Penelope,2,2,Pulmonal,Ovíparos(Ponen huevos)
-Aves,Cortarrame peruano,Bosque húmedo en las tierras bajas y montañas de Perú.,Insectívoros.,Cotingidae,Psittacara,2,2,Pulmonal,Ovíparos(Ponen huevos)
-Arácnidos,Tarántula,Bosques de América del Sur y América Central. ,Insectívoros.,Theraphosidae,Aphonopelma,8,8,Pulmonal,Ovíparos(Ponen huevos)
-Arácnidos,Viuda Negra,"Bosques de América del Norte, América del Sur y algunas partes de Europa.",Insectívoros.,Theridiidae,Latrodectus,8,8,Pulmonal,Ovíparos(Ponen huevos),
-Arácnidos,Araña Lobo,"Bosques, praderas, playas y desiertos. ",Insectívoros.,Lycosidae,Lycosa,8,8,Pulmonal,Ovíparos(Ponen huevos),
-Anfibios,Ajolote,Lagos y cuerpos de agua dulce de América Central,Insectívoros.,Ambystomatidae,Ambystoma,4,2,Branquial ,Ovíparos(Ponen huevos)
-Anfibios,Rana,Acuáticos(estanques y ríos) y terrestres(selvas tropicales y zonas de pradera).,Insectívoros.,Ranidae,Rana,4,2,Cutánea.,Ovíparos(Ponen huevos)
-Anfibios,Salamandra,"Bosques, lagos, arroyos y cuevas. ",Insectívoros.,Salamandridae,Salamandra,4,2,Cutánea.,Ovíparos(Ponen huevos),
-Anfibios,Sapo,Bosques hasta zonas suburbanas.,Insectívoros,Bufonidae,Bufo,4,2,Cutánea.,Ovíparos(Ponen huevos)
-Anélidos,Poliqueto marino,Océanos ,Omnivoros,Nereida,Astropecten,0,0,Cutánea.,Hermafroditas
-Anélidos,Lombrices,"Lugares húmedos como jardines, campos y bosques.",Detritívoras.,Lumbricidae,Lumbricus,0,0,Cutánea.,Hermafroditas,
-Anélidos,Gusano de seda,"estanques, arroyos y riós.",Detritívoros,Tubificidae,Bombyx,0,0,Cutánea.,Ovíparos(Ponen huevos),
-Anélidos,Sanguijuelas,"lugares acuáticos como ríos, lagos, pantanos y selvas. ",Carnívoros,Hirudinidae,Hirudo,0,0,Cutánea.,Ovíparos(Ponen huevos),
-Peces,Atún,Aguas cálidas y templadas de los océanos en todo el mundo.,Carnívoros.,Scombridae,Thunnus,0,2,Branquial.,Ovíparos(Ponen huevos)
-Peces,Pez Espada,Aguas tropicales y templadas de océanos de todo el mundo.,Carnívoros.,Xiphiidae,Xiphias,0,2,Branquial.,Ovíparos(Ponen huevos)
-Peces,Raya,"Aguas costeras, arrecifes de coral y fondos marinos. ",Carnívoros.,Dasyatidae,Dasyatis,0,2,Branquial.,Ovíparos(Ponen huevos),
+Categoría|Animal|Hábitat|Alimentación|Familia|Género|Numero de patas|Numero de ojos|Respiración|Reprodución|Rutas de imagen|Favorito
+Reptiles|Serpiente|Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.|Carnívoro|Colubridae|Python|1|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\python.png|1
+Reptiles|Tortuga|Son animales tanto terrestres y acuáticas|Herbívoras|Testudinidae|Chelonia|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tortuga.png|1
+Reptiles|Camaleón|Regiones tropicales y subtropicales.|Insectivora|Chamaeleonidae|Chamaeleo|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\camaleon.png|1
+Mamíferos|León|Sabanas, llanuras y regiones de matorrales de África|Carnívoro|Felidae|Panthera|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\leon.png|0
+Mamíferos|Jirafa|Sabanas, llanuras y regiones de matorrales de África|Herbívoro|Giraffidae|Giraffa.|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\jirafa.png|0
+Mamíferos|Cebra|Sabanas, llanuras y regiones de matorrales de África|Herbívoro.|Equidae|Equus|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\cebra.png|0
+Insectos|Hormiga|Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.|Omnívoras |Formicidae|Camponotus|6|2|Traqueal.|Haplodiploidía.|\ui\src\main\resources\com\enciclopedia\animales\images\hormiga.png|0
+Insectos|Avispa|Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.|Omnívoros |Vespidae|Vespula|6|2|Traqueal.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\avispa.png|0
+Insectos|Mosca|Ocupan una gran variedad de hábitats, desde bosques hasta áreas urbanas.|Detritívoras.|Muscidae|Drosophila|6|2|Traqueal.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\mosca.png|0
+Crustáceos|Camaron|Aguas dulces y saladas en todo el mundo, desde ríos y lagos hasta océanos.|Omnívoras |Penaeidae|Macrobrachium|6|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\camaron.png|0
+Crustáceos|Cangrejo|Aguas dulces y saladas, así como en hábitats terrestres.|Omnívoras |Portunidae|Ocypode|10|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\cangrejo.png|0
+Crustáceos|Langosta|Aguas saladas, especialmente en aguas tropicales y subtropicales.|Omnívoras |Nephropidae|Acanthacaris|10|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\langosta.png|0
+Aves|Gallito de las rocas|Bosques húmedos de montaña de América del Sur.|Herbívoros.|Cotingidae|Rupicola|2|2|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\gallitoRocas.png|0
+Aves|Pava aliblanca|Bosques tropicales de Perú y otras partes de América del Sur.|Herbívoros.|Cracidae|Penelope|2|2|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\pavaAliBlanca.png|0
+Aves|Cortarrame peruano|Bosque húmedo en las tierras bajas y montañas de Perú.|Insectívoros.|Cotingidae|Psittacara|2|2|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Cortarama_peruano.png|1
+Arácnidos|Tarántula|Bosques de América del Sur y América Central. |Insectívoros.|Theraphosidae|Aphonopelma|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tarantula.png|0
+Arácnidos|Viuda Negra|Bosques de América del 0rte, América del Sur y algunas partes de Europa.|Insectívoros.|Theridiidae|Latrodectus|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\viuda_negra.png|0
+Arácnidos|Araña Lobo|Bosques, praderas, playas y desiertos. |Insectívoros.|Lycosidae|Lycosa|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\arana_lobo.png|0
+Anfibios|Ajolote|Lagos y cuerpos de agua dulce de América Central|Insectívoros.|Ambystomatidae|Ambystoma|4|2|Branquial |Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\ajolote.png|0
+Anfibios|Rana|Acuáticos(estanques y ríos) y terrestres(selvas tropicales y zonas de pradera).|Insectívoros.|Ranidae|Rana|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\rana.png|0
+Anfibios|Salamandra|Bosques, lagos, arroyos y cuevas. |Insectívoros.|Salamandridae|Salamandra|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\salamandra.png|0
+Anfibios|Sapo|Bosques hasta zonas suburbanas.|Insectívoros|Bufonidae|Bufo|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\sapo.png|1
+Anélidos|Poliqueto marino|Océanos |Omnivoros|Nereida|Astropecten|0|0|Cutánea.|Hermafroditas|\ui\src\main\resources\com\enciclopedia\animales\images\Poliqueto_marino.png|0
+Anélidos|Lombrices|Lugares húmedos como jardines, campos y bosques.|Detritívoras.|Lumbricidae|Lumbricus|0|0|Cutánea.|Hermafroditas|\ui\src\main\resources\com\enciclopedia\animales\images\lombrices.png|0
+Anélidos|Gusano de seda|estanques, arroyos y riós.|Detritívoros|Tubificidae|Bombyx|0|0|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Gusano_seda.png|0
+Anélidos|Sanguijuelas|lugares acuáticos como ríos, lagos, pantanos y selvas. |Carnívoros|Hirudinidae|Hirudo|0|0|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Sanguijuelas.png|0
+Peces|Atún|Aguas cálidas y templadas de los océanos en todo el mundo.|Carnívoros.|Scombridae|Thunnus|0|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Atun.png|0
+Peces|Pez Espada|Aguas tropicales y templadas de océanos de todo el mundo.|Carnívoros.|Xiphiidae|Xiphias|0|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Pez_Espada.png|0
+Peces|Raya|Aguas costeras, arrecifes de coral y fondos marinos. |Carnívoros.|Dasyatidae|Dasyatis|0|2|Branquial.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\raya.png|0

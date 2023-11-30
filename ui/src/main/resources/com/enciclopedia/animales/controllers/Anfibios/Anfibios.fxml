@@ -18,9 +18,9 @@
                <toggleGroup>
                   <ToggleGroup fx:id="grupoAnfibios" />
                </toggleGroup></RadioButton>
-            <RadioButton fx:id="rb_Salamandra" layoutX="54.0" layoutY="215.0" mnemonicParsing="false" selected="true" text="Salamandra" toggleGroup="$grupoAnfibios" />
-            <RadioButton fx:id="rb_Rana" layoutX="54.0" layoutY="176.0" mnemonicParsing="false" selected="true" text="Rana" toggleGroup="$grupoAnfibios" />
-            <RadioButton fx:id="rb_Sapo" layoutX="51.0" layoutY="255.0" mnemonicParsing="false" selected="true" text="Sapo" toggleGroup="$grupoAnfibios" />
+            <RadioButton fx:id="RB_salamandra" layoutX="54.0" layoutY="215.0" mnemonicParsing="false" selected="true" text="Salamandra" toggleGroup="$grupoAnfibios" />
+            <RadioButton fx:id="RB_rana" layoutX="54.0" layoutY="176.0" mnemonicParsing="false" selected="true" text="Rana" toggleGroup="$grupoAnfibios" />
+            <RadioButton fx:id="RB_sapo" layoutX="51.0" layoutY="255.0" mnemonicParsing="false" selected="true" text="Sapo" toggleGroup="$grupoAnfibios" />
             <Label layoutX="223.0" layoutY="26.0" text="Anfibios">
                <font>
                   <Font size="27.0" />
@@ -28,7 +28,7 @@
             </Label>
             <Label layoutX="61.0" layoutY="87.0" text="¿Qué animal quieres ver?" />
             <Button fx:id="boton_Atras" layoutX="14.0" layoutY="322.0" mnemonicParsing="false" onAction="#Retroceder" text="Atrás" />
-            <Button fx:id="botonAdelante" layoutX="495.0" layoutY="322.0" mnemonicParsing="false" text="Adelante" />
+            <Button fx:id="botonAdelante" layoutX="495.0" layoutY="322.0" mnemonicParsing="false" onAction="#adelante" text="Adelante" />
             <ImageView fitHeight="150.0" fitWidth="208.0" layoutX="277.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Imagenes/img_Sapo.png" />
