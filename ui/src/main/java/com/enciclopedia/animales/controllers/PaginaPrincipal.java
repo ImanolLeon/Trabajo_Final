@@ -92,8 +92,16 @@ public class PaginaPrincipal {
                 throw new RuntimeException(e);
             }
         }
+    }
 
-
+    @FXML
+    private void mostrarFavoritos(){
+        try {
+            App.setRoot(getClass().getResource("Favoritos/Favoritos.fxml"));
+            App.getMainStage().setTitle("Favoritos");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 

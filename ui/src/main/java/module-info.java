@@ -8,4 +8,5 @@ module com.enciclopedia.animales.ui {
     exports com.enciclopedia.animales.controllers;
     exports com.enciclopedia.animales.window;
     opens com.enciclopedia.animales.window to javafx.fxml;
+    exports com.enciclopedia.animales.models;
 }

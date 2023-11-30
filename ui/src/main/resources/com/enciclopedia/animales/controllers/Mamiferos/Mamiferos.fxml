@@ -29,7 +29,7 @@
       <RadioButton fx:id="cebra" layoutX="74.0" layoutY="191.0" mnemonicParsing="false" selected="true" text="Cebra" toggleGroup="$Grupomamiferos" />
       <AnchorPane layoutX="320.0" prefHeight="400.0" prefWidth="276.0" style="-fx-background-color: f0f075;">
          <children>
-            <Button fx:id="siguiente" layoutX="200.0" layoutY="361.0" mnemonicParsing="false" text="Siguiente" />
+            <Button fx:id="siguiente" layoutX="200.0" layoutY="361.0" mnemonicParsing="false" onAction="#adelante" text="Siguiente" />
          </children></AnchorPane>
       <ImageView fitHeight="278.0" fitWidth="155.0" layoutX="423.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
          <image>
