@@ -20,7 +20,7 @@ public class App extends Application {
         mainStage.setTitle("Enciclopedia Animal");
         mainStage.setScene(scene);
         mainStage.show();
-        mainStage.setResizable(false);
+        mainStage.setResizable(true);
     }
 
     public static void setRoot(URL ruta) throws IOException {
