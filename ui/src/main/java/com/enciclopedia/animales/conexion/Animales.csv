@@ -1,6 +1,6 @@
 Categoría|Animal|Hábitat|Alimentación|Familia|Género|Numero de patas|Numero de ojos|Respiración|Reprodución|Rutas de imagen|Favorito
 Reptiles|Serpiente|Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.|Carnívoro|Colubridae|Python|1|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\python.png|1
-Reptiles|Tortuga|Son animales tanto terrestres y acuáticas|Herbívoras|Testudinidae|Chelonia|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tortuga.png|1
+Reptiles|Tortuga|Son animales tanto terrestres y acuáticas|Herbívoras|Testudinidae|Chelonia|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tortuga.png|0
 Reptiles|Camaleón|Regiones tropicales y subtropicales.|Insectivora|Chamaeleonidae|Chamaeleo|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\camaleon.png|1
 Mamíferos|León|Sabanas, llanuras y regiones de matorrales de África|Carnívoro|Felidae|Panthera|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\leon.png|0
 Mamíferos|Jirafa|Sabanas, llanuras y regiones de matorrales de África|Herbívoro|Giraffidae|Giraffa.|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\jirafa.png|0
@@ -17,10 +17,10 @@ Aves|Cortarrame peruano|Bosque húmedo en las tierras bajas y montañas de Perú
 Arácnidos|Tarántula|Bosques de América del Sur y América Central. |Insectívoros.|Theraphosidae|Aphonopelma|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tarantula.png|0
 Arácnidos|Viuda Negra|Bosques de América del 0rte, América del Sur y algunas partes de Europa.|Insectívoros.|Theridiidae|Latrodectus|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\viuda_negra.png|0
 Arácnidos|Araña Lobo|Bosques, praderas, playas y desiertos. |Insectívoros.|Lycosidae|Lycosa|8|8|Pulmonal|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\arana_lobo.png|0
-Anfibios|Ajolote|Lagos y cuerpos de agua dulce de América Central|Insectívoros.|Ambystomatidae|Ambystoma|4|2|Branquial |Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\ajolote.png|0
+Anfibios|Ajolote|Lagos y cuerpos de agua dulce de América Central|Insectívoros.|Ambystomatidae|Ambystoma|4|2|Branquial |Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\ajolote.png|1
 Anfibios|Rana|Acuáticos(estanques y ríos) y terrestres(selvas tropicales y zonas de pradera).|Insectívoros.|Ranidae|Rana|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\rana.png|0
 Anfibios|Salamandra|Bosques, lagos, arroyos y cuevas. |Insectívoros.|Salamandridae|Salamandra|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\salamandra.png|0
-Anfibios|Sapo|Bosques hasta zonas suburbanas.|Insectívoros|Bufonidae|Bufo|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\sapo.png|1
+Anfibios|Sapo|Bosques hasta zonas suburbanas.|Insectívoros|Bufonidae|Bufo|4|2|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\sapo.png|0
 Anélidos|Poliqueto marino|Océanos |Omnivoros|Nereida|Astropecten|0|0|Cutánea.|Hermafroditas|\ui\src\main\resources\com\enciclopedia\animales\images\Poliqueto_marino.png|0
 Anélidos|Lombrices|Lugares húmedos como jardines, campos y bosques.|Detritívoras.|Lumbricidae|Lumbricus|0|0|Cutánea.|Hermafroditas|\ui\src\main\resources\com\enciclopedia\animales\images\lombrices.png|0
 Anélidos|Gusano de seda|estanques, arroyos y riós.|Detritívoros|Tubificidae|Bombyx|0|0|Cutánea.|Ovíparos(Ponen huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\Gusano_seda.png|0
