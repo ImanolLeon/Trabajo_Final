@@ -1,9 +1,5 @@
 Categoría|Animal|Hábitat|Alimentación|Familia|Género|Numero de patas|Numero de ojos|Respiración|Reprodución|Rutas de imagen|Favorito
-<<<<<<< HEAD
 Reptiles|Serpiente|Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.|Carnívoro|Colubridae|Python|0|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\python.png|0
-=======
-Reptiles|Serpiente|Se encuentran desde desiertos hasta selvas tropicales y regiones templadas.|Carnívoro|Colubridae|Python|1|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\python.png|1
->>>>>>> 1183aff6ddb0b236770337ac453f16993e85089e
 Reptiles|Tortuga|Son animales tanto terrestres y acuáticas|Herbívoras|Testudinidae|Chelonia|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\tortuga.png|0
 Reptiles|Camaleón|Regiones tropicales y subtropicales.|Insectivora|Chamaeleonidae|Chamaeleo|4|2|Pulmonal|Ovíporas(Ponen Huevos)|\ui\src\main\resources\com\enciclopedia\animales\images\camaleon.png|1
 Mamíferos|León|Sabanas, llanuras y regiones de matorrales de África|Carnívoro|Felidae|Panthera|4|2|Pulmonal|Vivíparas(Crías)|\ui\src\main\resources\com\enciclopedia\animales\images\leon.png|0
