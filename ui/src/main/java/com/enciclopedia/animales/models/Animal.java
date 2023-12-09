@@ -28,6 +28,8 @@ public abstract class Animal {
         this.respiacion = respiacion;
         this.reproduccion = reproduccion;
         this.rutaImagen = rutaImagen;
+        this.rutaGif = rutaGif;
+        this.rutaSonido = rutaSonido;
     }
 
     public String getNombreAnimal() {
