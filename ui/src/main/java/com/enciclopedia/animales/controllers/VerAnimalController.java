@@ -116,13 +116,13 @@ public class VerAnimalController implements Initializable {
     @FXML
     private void mostrarGifOFoto() {
         if (esFoto) {
-            esFoto = !esFoto;
+            esFoto = false;
             Image image = new Image(System.getProperty("user.dir") + animal.getRutaGif());
             imageView.setImage(image);
 
             buttonGifFoto.setText("Mostrar foto");
         } else {
-            esFoto = !esFoto;
+            esFoto = true;
             Image image = new Image(System.getProperty("user.dir") + animal.getRutaImagen());
             imageView.setImage(image);
 

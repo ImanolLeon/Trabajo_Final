@@ -94,8 +94,6 @@ public class Conexion {
                 String urlGift = resultSet.getString("rutaGif");
                 String urlSonido = resultSet.getString("rutaAudio");
 
-                System.out.println(resultSet.getString("nombre_categoria"));
-
                 Animal animal = null;
 
                 switch (resultSet.getString("nombre_categoria")) {
