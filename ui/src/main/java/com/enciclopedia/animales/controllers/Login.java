@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Login {
     @FXML
-    private Label text_title,text_username,text_contrasena;
+    private Label text_title, text_username, text_contrasena;
     @FXML
     private PasswordField textField_contrasena;
     @FXML
@@ -24,28 +24,28 @@ public class Login {
     @FXML
     private Button botton_ingresar;
     @FXML
-    private AnchorPane forma1,forma2;
+    private AnchorPane forma1, forma2;
     @FXML
-    private ImageInput imagen1,imagen2,imagen3;
+    private ImageInput imagen1, imagen2, imagen3;
 
     @FXML
     private void entrar() {
         String username = textField_username.getText();
         String contrasena = textField_contrasena.getText();
 
-        Usuario usuario = new Usuario(username,contrasena);
+        Usuario usuario = new Usuario(username, contrasena);
         List<Usuario> usuarios = Conexion.getInstancia().getUsuarios();
 
         boolean existe = false;
-        for (Usuario u: usuarios) {
-            if (u.equals(usuario)){
+        for (Usuario u : usuarios) {
+            if (u.equals(usuario)) {
                 existe = true;
                 break;
             }
         }
 
-        if (username.isEmpty() ||  contrasena.isEmpty() || !existe){
-            //ir al archivo XML llamado "Entrada_erronea"
+        if (username.isEmpty() || contrasena.isEmpty() || !existe) {
+            // ir al archivo XML llamado "Entrada_erronea"
             try {
                 App.setRoot(getClass().getResource("Login/Entrada_erronea.fxml"));
                 App.getMainStage().setTitle("Error");
@@ -53,7 +53,7 @@ public class Login {
                 System.out.println("Error al cargar la ventana de error");
             }
 
-        }else{
+        } else {
             try {
                 App.setRoot(getClass().getResource("Login/PaginaPrinciapl.fxml"));
                 App.getMainStage().setTitle("Pagina principal");
@@ -62,9 +62,5 @@ public class Login {
             }
         }
     }
-
-
-
-
 
 }
