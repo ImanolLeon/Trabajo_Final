@@ -1,8 +1,8 @@
 package com.enciclopedia.animales.models;
 
-public abstract class Animal{
+public abstract class Animal {
     private String habitad;
-    private String nombreAnimal; //nombre animal
+    private String nombreAnimal; // nombre animal
     private String alimentacion;
     private String familia;
     private String genero;
@@ -11,11 +11,13 @@ public abstract class Animal{
     private String respiacion;
     private String reproduccion;
     private String rutaImagen;
+    private String rutaGif;
+    private String rutaSonido;
 
-    //constructor
+    // constructor
     public Animal(String habitad, String nombreAnimal, String alimentacion,
-                  String familia, String genero, String numeroPatas, String numeroOjos,
-                  String respiacion, String reproduccion, String rutaImagen) {
+            String familia, String genero, String numeroPatas, String numeroOjos,
+            String respiacion, String reproduccion, String rutaImagen, String rutaGif, String rutaSonido) {
         this.habitad = habitad;
         this.nombreAnimal = nombreAnimal;
         this.alimentacion = alimentacion;
@@ -59,10 +61,20 @@ public abstract class Animal{
     public String getNumeroOjos() {
         return numeroOjos;
     }
-    public String getHabitad() { return habitad ;}
+
+    public String getHabitad() {
+        return habitad;
+    }
 
     public String getRutaImagen() {
         return rutaImagen;
     }
-}
 
+    public String getRutaGif() {
+        return rutaGif;
+    }
+
+    public String getRutaSonido() {
+        return rutaSonido;
+    }
+}

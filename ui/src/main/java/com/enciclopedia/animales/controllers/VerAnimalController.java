@@ -9,6 +9,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.media.*;
+import java.io.File;
 
 import java.net.URL;
 import java.util.HashMap;
@@ -21,9 +23,10 @@ public class VerAnimalController implements Initializable {
     @FXML
     private ImageView imageView;
     @FXML
-    private Button regresarButton, modificarFavorito;
+    private Button regresarButton, modificarFavorito, buttonSonido, buttonGifFoto;
 
     private static Animal animal;
+    private boolean esFoto = true;
     private static HashMap<String, String> ventanas = new HashMap<>();
     static {
         ventanas.put("Principal", "Login/PaginaPrinciapl.fxml");
@@ -89,6 +92,41 @@ public class VerAnimalController implements Initializable {
         } else {
             Conexion.getInstancia().anadirFavorito(animal);
             modificarFavorito.setText("Quitar de favoritos");
+        }
+    }
+
+    @FXML
+    private void reproducirSonido() {
+        String rutaSonido = System.getProperty("user.dir") + animal.getRutaSonido();
+
+        File sonido = new File(rutaSonido);
+        if (sonido.exists()) {
+            try {
+                Media media = new Media(sonido.toURI().toString());
+                MediaPlayer mediaPlayer = new MediaPlayer(media);
+                mediaPlayer.play();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        } else {
+            System.out.println("No se encontro el archivo de sonido");
+        }
+    }
+
+    @FXML
+    private void mostrarGifOFoto() {
+        if (esFoto) {
+            esFoto = !esFoto;
+            Image image = new Image(System.getProperty("user.dir") + animal.getRutaGif());
+            imageView.setImage(image);
+
+            buttonGifFoto.setText("Mostrar foto");
+        } else {
+            esFoto = !esFoto;
+            Image image = new Image(System.getProperty("user.dir") + animal.getRutaImagen());
+            imageView.setImage(image);
+
+            buttonGifFoto.setText("Mostrar gif");
         }
     }
 }

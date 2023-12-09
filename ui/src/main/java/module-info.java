@@ -4,6 +4,10 @@ module com.enciclopedia.animales.ui {
     requires transitive java.sql;
 
     requires transitive java.desktop;
+    requires transitive javafx.media;
+
+    requires com.enciclopedia.juegouno;
+
 
     opens com.enciclopedia.animales.controllers to javafx.fxml;
 

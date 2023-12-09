@@ -104,7 +104,25 @@ public class PaginaPrincipal {
         }
     }
 
+    @FXML
+    private void jugar1() {
+        try {
+            com.enciclopedia.juegouno.Main.Main.main(null);
+        } catch (Exception e) {
+            e.printStackTrace();        }
+    }
 
+    @FXML
+    private void jugar2() {
+    }
+
+    @FXML
+    private void jugar3() {
+    }
+
+    @FXML
+    private void jugar4() {
+    }
 
 }
 

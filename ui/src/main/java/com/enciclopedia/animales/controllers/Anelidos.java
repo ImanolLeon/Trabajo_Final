@@ -44,6 +44,7 @@ public class Anelidos {
             App.setRoot(getClass().getResource("Animal/Animal_a_mostrar.fxml"));
         } catch (Exception e) {
             System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }

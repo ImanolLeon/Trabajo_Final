@@ -12,6 +12,7 @@
   <modules>
     <module>ui</module>
     <module>utilities</module>
+    <module>juegouno</module>
   </modules>
 
   <properties>

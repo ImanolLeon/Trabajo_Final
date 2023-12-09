@@ -51,6 +51,10 @@
                   <Font size="15.0" />
                </font>
             </Button>
+            <Button layoutX="186.0" layoutY="15.0" mnemonicParsing="false" onAction="#jugar1" style="-fx-background-color: #9e9e9e;" text="Juego 1" />
+            <Button layoutX="254.0" layoutY="15.0" mnemonicParsing="false" onAction="#jugar2" style="-fx-background-color: #9e9e9e;" text="Juego 2" />
+            <Button layoutX="323.0" layoutY="15.0" mnemonicParsing="false" onAction="#jugar3" style="-fx-background-color: #9e9e9e;" text="Juego 3" />
+            <Button layoutX="392.0" layoutY="15.0" mnemonicParsing="false" onAction="#jugar4" style="-fx-background-color: #9e9e9e;" text="Juego 4" />
          </children></AnchorPane>
    </children>
 </AnchorPane>

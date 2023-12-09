@@ -35,6 +35,11 @@ public class Conexion {
     private Conexion() {
         leerAnimales();
         leerUsuarios();
+        try {
+            connection.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     private static String URL = "jdbc:mysql://uvhf51x4ncr7pkep:QooGQjNgn9XZkh9iFLcp@b6g6tan4fbjow1j1fztn-mysql.services.clever-cloud.com:3306/b6g6tan4fbjow1j1fztn";
@@ -67,12 +72,13 @@ public class Conexion {
 
         try {
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(
-                    "SELECT categoria.nombre_categoria, animal.nombre_animal "
-                            + "FROM animal "
-                            + "INNER JOIN categoria"
-                            + " ON animal.id_categoria = categoria.id_categoria "
-                            + "ORDER BY categoria.nombre_categoria");
+            ResultSet resultSet = statement.executeQuery("""
+                        SELECT categoria.nombre_categoria, animal.*
+                        FROM animal
+                        INNER JOIN categoria
+                        ON animal.id_categoria = categoria.id_categoria
+                        ORDER BY categoria.nombre_categoria
+                    """);
 
             while (resultSet.next()) {
                 String nombreAnimal = resultSet.getString("nombre_animal");
@@ -84,55 +90,58 @@ public class Conexion {
                 String reproduccion = resultSet.getString("reproduccion");
                 String habitat = resultSet.getString("habitad");
                 String alimentacion = resultSet.getString("alimentacion");
+                String urlImagen = resultSet.getString("rutaImagen");
+                String urlGift = resultSet.getString("rutaGif");
+                String urlSonido = resultSet.getString("rutaAudio");
 
-                System.out.println(nombreAnimal);
+                System.out.println(resultSet.getString("nombre_categoria"));
 
                 Animal animal = null;
 
                 switch (resultSet.getString("nombre_categoria")) {
                     case "Anelido":
                         animal = new Anelido(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         anelidos.add((Anelido) animal);
                         break;
                     case "Anfibio":
                         animal = new Anfibio(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         anfibios.add((Anfibio) animal);
                         break;
                     case "Aracnido":
                         animal = new Aracnido(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         aracnidos.add((Aracnido) animal);
                         break;
                     case "Ave":
                         animal = new Ave(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         aves.add((Ave) animal);
                         break;
                     case "Crustaceo":
                         animal = new Crustaceo(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         crustaceos.add((Crustaceo) animal);
                         break;
                     case "Insecto":
                         animal = new Insecto(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         insectos.add((Insecto) animal);
                         break;
                     case "Mamifero":
                         animal = new Mamifero(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         mamiferos.add((Mamifero) animal);
                         break;
                     case "Pez":
                         animal = new Pez(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         peces.add((Pez) animal);
                         break;
                     case "Reptil":
                         animal = new Reptil(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
-                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift);
+                                numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         reptiles.add((Reptil) animal);
                         break;
                 }
@@ -150,8 +159,8 @@ public class Conexion {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM usuario");
 
             while (resultSet.next()) {
-                String username = resultSet.getString("username");
-                String contrasena = resultSet.getString("contrasena");
+                String username = resultSet.getString("nombre_usuario");
+                String contrasena = resultSet.getString("password");
 
                 Usuario usuario = new Usuario(username, contrasena);
                 usuarios.add(usuario);
