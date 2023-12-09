@@ -99,6 +99,7 @@ public class VerAnimalController implements Initializable {
     private void reproducirSonido() {
         String rutaSonido = System.getProperty("user.dir") + animal.getRutaSonido();
 
+        System.out.println(rutaSonido);
         File sonido = new File(rutaSonido);
         if (sonido.exists()) {
             try {
