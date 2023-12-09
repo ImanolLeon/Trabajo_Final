@@ -26,6 +26,7 @@ public class App extends Application {
     public static void setRoot(URL ruta) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ruta);
         scene.setRoot(fxmlLoader.load());
+
     }
 
     public static void irAPrincipal() {
