@@ -99,47 +99,47 @@ public class Conexion {
                 Animal animal = null;
 
                 switch (resultSet.getString("nombre_categoria")) {
-                    case "Anelido":
+                    case "Anelidos":
                         animal = new Anelido(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         anelidos.add((Anelido) animal);
                         break;
-                    case "Anfibio":
+                    case "Anfibios":
                         animal = new Anfibio(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         anfibios.add((Anfibio) animal);
                         break;
-                    case "Aracnido":
+                    case "Aracnidos":
                         animal = new Aracnido(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         aracnidos.add((Aracnido) animal);
                         break;
-                    case "Ave":
+                    case "Aves":
                         animal = new Ave(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         aves.add((Ave) animal);
                         break;
-                    case "Crustaceo":
+                    case "Crustaceos":
                         animal = new Crustaceo(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         crustaceos.add((Crustaceo) animal);
                         break;
-                    case "Insecto":
+                    case "Insectos":
                         animal = new Insecto(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         insectos.add((Insecto) animal);
                         break;
-                    case "Mamifero":
+                    case "Mamiferos":
                         animal = new Mamifero(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         mamiferos.add((Mamifero) animal);
                         break;
-                    case "Pez":
+                    case "Peces":
                         animal = new Pez(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         peces.add((Pez) animal);
                         break;
-                    case "Reptil":
+                    case "Reptiles":
                         animal = new Reptil(habitat, nombreAnimal, alimentacion, familia, genero, numeroDePatas,
                                 numeroOjos, respiracion, reproduccion, urlImagen, urlGift, urlSonido);
                         reptiles.add((Reptil) animal);
