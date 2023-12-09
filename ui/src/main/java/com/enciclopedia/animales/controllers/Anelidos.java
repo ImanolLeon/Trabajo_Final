@@ -20,6 +20,8 @@ public class Anelidos {
     private void Retroceder() {
         App.irAPrincipal();
     }
+
+
     @FXML
     private void adelante() {
         Anelido anelido = null;
