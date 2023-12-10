@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.enciclopedia.juegouno.Frame;
 
 import com.enciclopedia.juegouno.Methods.Match;
@@ -29,7 +24,6 @@ public class Principal extends javax.swing.JFrame {
 
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jButton3 = new javax.swing.JButton();
@@ -181,10 +175,9 @@ public class Principal extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btn01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn01MouseClicked
-        //u.evtBtn(btn01,evt,next.get(0));
+    private void btn01MouseClicked(java.awt.event.MouseEvent evt) {
         Match m = new Match();
         m.setBtn(btn01);
         m.setNumberBtn(1);
@@ -192,9 +185,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn01MouseClicked
+    }
 
-    private void btn02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn02MouseClicked
+    private void btn02MouseClicked(java.awt.event.MouseEvent evt) {
         // TODO add your handling code here:
         Match m = new Match();
         m.setBtn(btn02);
@@ -203,9 +196,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn02MouseClicked
+    }
 
-    private void btn03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn03MouseClicked
+    private void btn03MouseClicked(java.awt.event.MouseEvent evt) {
         // TODO add your handling code here:
         Match m = new Match();
         m.setBtn(btn03);
@@ -214,9 +207,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn03MouseClicked
+    }
 
-    private void btn04MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn04MouseClicked
+    private void btn04MouseClicked(java.awt.event.MouseEvent evt) {
        Match m = new Match();
         m.setBtn(btn04);
         m.setNumberBtn(4);
@@ -224,9 +217,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn04MouseClicked
+    }
 
-    private void btn05MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn05MouseClicked
+    private void btn05MouseClicked(java.awt.event.MouseEvent evt) {
         Match m = new Match();
         m.setBtn(btn05);
         m.setNumberBtn(5);
@@ -234,9 +227,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn05MouseClicked
+    }
 
-    private void btn06MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn06MouseClicked
+    private void btn06MouseClicked(java.awt.event.MouseEvent evt) {
         Match m = new Match();
         m.setBtn(btn06);
         m.setNumberBtn(6);
@@ -244,9 +237,8 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn06MouseClicked
-
-    private void btn07MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn07MouseClicked
+    }
+    private void btn07MouseClicked(java.awt.event.MouseEvent evt) {
         Match m = new Match();
         m.setBtn(btn07);
         m.setNumberBtn(7);
@@ -254,9 +246,9 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn07MouseClicked
+    }
 
-    private void btn08MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn08MouseClicked
+    private void btn08MouseClicked(java.awt.event.MouseEvent evt) {
         Match m = new Match();
         m.setBtn(btn08);
         m.setNumberBtn(8);
@@ -264,15 +256,11 @@ public class Principal extends javax.swing.JFrame {
         u.getMatch().add(m);
         u.paintMatch();
         u.match();
-    }//GEN-LAST:event_btn08MouseClicked
+    }
 
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -289,10 +277,7 @@ public class Principal extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Principal().setVisible(true);
@@ -300,7 +285,6 @@ public class Principal extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     public static javax.swing.JButton btn01;
     public static javax.swing.JButton btn02;
     public static javax.swing.JButton btn03;
@@ -312,5 +296,4 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    // End of variables declaration//GEN-END:variables
 }
