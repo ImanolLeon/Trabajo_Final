@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.effect.ImageInput;
 import javafx.scene.layout.AnchorPane;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.util.List;
 
@@ -60,6 +61,16 @@ public class Login {
             } catch (IOException e) {
                 System.out.println("Error al cargar la página principal");
             }
+        }
+    }
+
+    @FXML
+    private void abrirRegistro(){
+        try {
+            App.setRoot(getClass().getResource("Login/Registro.fxml"));
+            App.getMainStage().setTitle("Registro");
+        }catch (IOException e){
+            throw new RuntimeException(e);
         }
     }
 

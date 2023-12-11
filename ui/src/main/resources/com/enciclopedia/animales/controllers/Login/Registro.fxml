@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #75e171;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Registro">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72e094" height="198.0" layoutX="60.0" layoutY="134.0" stroke="BLACK" strokeType="INSIDE" width="504.0" />
+      <Label layoutX="233.0" layoutY="62.0" prefHeight="50.0" prefWidth="135.0" text="Registro">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font></Label>
+      <Label layoutX="116.0" layoutY="163.0" text="Nombre de usuario">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="116.0" layoutY="225.0" text="Contraseña">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <PasswordField fx:id="textField_RContrasena" layoutX="293.0" layoutY="225.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField fx:id="textField_RUsuario" layoutX="293.0" layoutY="163.0" prefHeight="25.0" prefWidth="208.0" />
+      <Button fx:id="botton_registrar" layoutX="261.0" layoutY="286.0" mnemonicParsing="false" onAction="#registrar" style="-fx-background-color: ffbb8b;" text="Registrar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btt_RegresarPrincipal" layoutX="441.0" layoutY="350.0" mnemonicParsing="false" onAction="#RegresoLogin" style="-fx-background-color: ffbb8b;" text="Regresar Login">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

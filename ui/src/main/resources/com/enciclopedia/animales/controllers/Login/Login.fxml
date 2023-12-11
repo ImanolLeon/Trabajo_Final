@@ -3,11 +3,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: f3bd97;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.Login">
    <children>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fff5ee;">
+      <AnchorPane prefHeight="400.0" prefWidth="221.0" style="-fx-background-color: fff5ee;">
          <children>
             <ImageView fitHeight="118.0" fitWidth="146.0" layoutX="22.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -19,7 +20,7 @@
                   <Image url="@../Imagenes/img_1.png" />
                </image>
             </ImageView>
-            <Label fx:id="text_title" layoutX="6.0" layoutY="44.0" text="Enciclopedia de Animales" textAlignment="CENTER">
+            <Label fx:id="text_title" layoutX="14.0" layoutY="44.0" text="Enciclopedia de Animales" textAlignment="CENTER">
                <font>
                   <Font name="Arial Bold" size="15.0" />
                </font>
@@ -30,21 +31,36 @@
                </image>
             </ImageView>
          </children></AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="413.0" style="-fx-background-color: a8e2b8;">
+      <AnchorPane prefHeight="400.0" prefWidth="413.0" style="-fx-background-color: #75e171;">
          <children>
-            <Label fx:id="text_contrasena" layoutX="36.0" layoutY="195.0" text="Contraseña">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72e094" height="252.0" layoutX="17.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="356.0" />
+            <Label fx:id="text_contrasena" layoutX="45.0" layoutY="195.0" prefHeight="25.0" prefWidth="85.0" text="Contraseña">
                <font>
-                  <Font size="16.0" />
+                  <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Button fx:id="botton_ingresar" layoutX="181.0" layoutY="239.0" mnemonicParsing="false" onAction="#entrar" style="-fx-background-color: ffbb8b;" text="Ingresar" />
-            <TextField fx:id="textField_username" layoutX="136.0" layoutY="146.0" />
-            <PasswordField fx:id="textField_contrasena" layoutX="134.0" layoutY="195.0" />
-            <Label fx:id="text_username" layoutX="33.0" layoutY="144.0" text="Usuario">
+            <Button fx:id="botton_ingresar" layoutX="197.0" layoutY="230.0" mnemonicParsing="false" onAction="#entrar" style="-fx-background-color: ffbb8b;" text="Ingresar">
                <font>
-                  <Font size="16.0" />
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Button>
+            <TextField fx:id="textField_username" layoutX="154.0" layoutY="146.0" />
+            <PasswordField fx:id="textField_contrasena" layoutX="154.0" layoutY="195.0" />
+            <Label fx:id="text_username" layoutX="58.0" layoutY="146.0" text="Usuario">
+               <font>
+                  <Font name="System Bold" size="16.0" />
                </font>
             </Label>
+            <Label fx:id="text_contrasena1" layoutX="129.0" layoutY="49.0" prefHeight="32.0" prefWidth="138.0" text="Iniciar Sesión">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="170.0" layoutY="290.0" text="No tienes una cuenta?" />
+            <Button fx:id="botton_ventanaRegistro" layoutX="192.0" layoutY="314.0" mnemonicParsing="false" onAction="#abrirRegistro" style="-fx-background-color: ffbb8b;" text="Registrate">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
          </children></AnchorPane>
    </children>
 </HBox>

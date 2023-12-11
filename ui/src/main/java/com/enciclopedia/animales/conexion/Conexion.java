@@ -35,18 +35,13 @@ public class Conexion {
     private Conexion() {
         leerAnimales();
         leerUsuarios();
-        try {
-            connection.close();
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
     }
 
     private static String URL = "jdbc:mysql://uvhf51x4ncr7pkep:QooGQjNgn9XZkh9iFLcp@b6g6tan4fbjow1j1fztn-mysql.services.clever-cloud.com:3306/b6g6tan4fbjow1j1fztn";
     private static String USER = "uvhf51x4ncr7pkep";
     private static String PASSWORD = "QooGQjNgn9XZkh9iFLcp";
 
-    private Connection getConnection() {
+    public Connection getConnection() {
         try {
             if (connection != null && connection.isClosed()) {
                 return connection;
