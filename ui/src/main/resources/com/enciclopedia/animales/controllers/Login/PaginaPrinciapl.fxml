@@ -3,51 +3,50 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: effafd;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enciclopedia.animales.controllers.PaginaPrincipal">
    <children>
-      <Label layoutX="196.0" layoutY="22.0" text="¡BIENVENIDO!">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4fbffc" height="251.0" layoutX="290.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="286.0" />
+      <Line endX="-100.0" endY="227.0" layoutX="368.0" layoutY="103.0" startX="-100.0" startY="17.0" />
+      <Line endX="-100.0" endY="227.0" layoutX="134.0" layoutY="103.0" startX="-100.0" startY="17.0" />
+      <Label layoutX="209.0" layoutY="23.0" text="¡BIENVENIDO!">
          <font>
-            <Font size="32.0" />
+            <Font name="System Bold" size="32.0" />
          </font>
       </Label>
-      <Label layoutX="22.0" layoutY="69.0" text="¿Que clase de animal deseas ver?">
+      <Label layoutX="48.0" layoutY="82.0" text="Escoge una clase de animal ...">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <RadioButton fx:id="RB_mamifero" layoutX="74.0" layoutY="103.0" mnemonicParsing="false" selected="true" text="Mamiferos">
+      <RadioButton fx:id="RB_mamifero" layoutX="48.0" layoutY="118.0" mnemonicParsing="false" selected="true" text="Mamiferos">
          <toggleGroup>
             <ToggleGroup fx:id="GrupoAnimales" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton fx:id="RB_peces" layoutX="74.0" layoutY="129.0" mnemonicParsing="false" selected="true" text="Peces" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_aves" layoutX="74.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="Aves" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_anfibios" layoutX="74.0" layoutY="190.0" mnemonicParsing="false" selected="true" text="Anfibios" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_insectos" layoutX="74.0" layoutY="217.0" mnemonicParsing="false" selected="true" text="Insectos" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_aracnido" layoutX="74.0" layoutY="249.0" mnemonicParsing="false" selected="true" text="Aracnicos" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_anelidos" layoutX="74.0" layoutY="280.0" mnemonicParsing="false" selected="true" text="Anelidos" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_crustaceos" layoutX="74.0" layoutY="304.0" mnemonicParsing="false" selected="true" text="Crustaceos" toggleGroup="$GrupoAnimales" />
-      <RadioButton fx:id="RB_reptiles" layoutX="74.0" layoutY="332.0" mnemonicParsing="false" selected="true" text="Reptiles" toggleGroup="$GrupoAnimales" />
-      <ImageView fitHeight="222.0" fitWidth="292.0" layoutX="357.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+      <RadioButton fx:id="RB_peces" layoutX="48.0" layoutY="280.0" mnemonicParsing="false" selected="true" text="Peces" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_aves" layoutX="48.0" layoutY="172.0" mnemonicParsing="false" selected="true" text="Aves" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_anfibios" layoutX="48.0" layoutY="226.0" mnemonicParsing="false" selected="true" text="Anfibios" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_insectos" layoutX="177.0" layoutY="172.0" mnemonicParsing="false" selected="true" text="Insectos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_aracnido" layoutX="102.0" layoutY="321.0" mnemonicParsing="false" selected="true" text="Aracnidos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_anelidos" layoutX="177.0" layoutY="118.0" mnemonicParsing="false" selected="true" text="Anelidos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_crustaceos" layoutX="177.0" layoutY="226.0" mnemonicParsing="false" selected="true" text="Crustaceos" toggleGroup="$GrupoAnimales" />
+      <RadioButton fx:id="RB_reptiles" layoutX="177.0" layoutY="280.0" mnemonicParsing="false" selected="true" text="Reptiles" toggleGroup="$GrupoAnimales" />
+      <ImageView fitHeight="230.0" fitWidth="255.0" layoutX="316.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/img_5.png" />
          </image>
       </ImageView>
       <AnchorPane layoutX="-4.0" layoutY="352.0" prefHeight="55.0" prefWidth="606.0" style="-fx-background-color: a1d9e9;">
          <children>
-            <Button fx:id="butto_Adelante1" layoutX="21.0" layoutY="12.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#mostrarFavoritos" style="-fx-background-color: #9e9e9e;" text="Mostrar favoritos">
+            <Button fx:id="butto_Adelante1" layoutX="24.0" layoutY="15.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#mostrarFavoritos" style="-fx-background-color: #4fbffc;" text="Mostrar favoritos" />
+            <Button fx:id="butto_Adelante" layoutX="518.0" layoutY="15.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#CambiarScene" style="-fx-background-color: #4fbffc;" text="Adelante" />
+            <Button fx:id="btt_juegos" layoutX="277.0" layoutY="15.0" mnemonicParsing="false" onAction="#juegos" style="-fx-background-color: #d72a1a;" text="Juegos" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
-               </font>
-            </Button>
-            <Button fx:id="butto_Adelante" layoutX="512.0" layoutY="12.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#CambiarScene" style="-fx-background-color: #9e9e9e;" text="Adelante">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Button>
-            <Button layoutX="278.0" layoutY="15.0" mnemonicParsing="false" onAction="#jugar1" style="-fx-background-color: #9e9e9e;" text="Juego Cartas" />
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
          </children></AnchorPane>
    </children>
 </AnchorPane>

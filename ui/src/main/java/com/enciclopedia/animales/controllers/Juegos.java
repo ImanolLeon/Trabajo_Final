@@ -1,2 +1,5 @@
-package com.enciclopedia.animales.controllers;public class Juegos {
+package com.enciclopedia.animales.controllers;
+
+public class Juegos {
+
 }

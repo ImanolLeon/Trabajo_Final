@@ -14,17 +14,8 @@ import java.io.IOException;
 public class PaginaPrincipal {
 
     @FXML
-    private Label text1,text;
-    @FXML
     private RadioButton RB_mamifero,RB_peces,RB_aves,RB_anfibios,RB_insectos,RB_aracnido,RB_anelidos,RB_crustaceos,RB_reptiles;
-    @FXML
-    private ToggleGroup GrupoAnimales;
-    @FXML
-    private Image imagen1;
-    @FXML
-    private Button butto_Adelante;
-    @FXML
-    private AnchorPane panel1,panel2;
+
 
     @FXML
     private void CambiarScene(){
@@ -105,12 +96,15 @@ public class PaginaPrincipal {
     }
 
     @FXML
-    private void jugar1() {
+    private void juegos() {
         try {
-            com.enciclopedia.juegouno.Ventana.Main.main(null);
-        } catch (Exception e) {
-            e.printStackTrace();        }
+            App.setRoot(getClass().getResource("Juegos/Juegos.fxml"));
+            App.getMainStage().setTitle("Juegos");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
+
 
 }
 

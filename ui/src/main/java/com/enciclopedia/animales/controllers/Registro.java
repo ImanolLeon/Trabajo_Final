@@ -30,6 +30,7 @@ public class Registro {
             boolean result = statement.execute("CALL AgregarUsuario('" + username + "', '" + contrasena + "')");
             if (!result) {
                 JOptionPane.showMessageDialog(null,"Usuario registrado correctamente.");
+                Conexion.getInstancia().leerUsuarios();
             } else {
                 JOptionPane.showMessageDialog(null,"Error en el registro");
             }

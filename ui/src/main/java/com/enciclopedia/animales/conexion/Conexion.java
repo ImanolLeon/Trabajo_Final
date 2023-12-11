@@ -144,7 +144,7 @@ public class Conexion {
         }
     }
 
-    private void leerUsuarios() {
+    public void leerUsuarios() {
         Connection connection = getConnection();
 
         try {
